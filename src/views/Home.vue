@@ -7,7 +7,7 @@
       <div class="col-lg-3">
         <Chats></Chats>
       </div>
-      <div class="col">
+      <div class="col-lg-5">
         <ChatArea></ChatArea>
       </div>
 

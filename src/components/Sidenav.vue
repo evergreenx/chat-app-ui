@@ -31,7 +31,7 @@
       <a href="#">
         <v-badge bordered bottom color="green accent-4" dot offset-x="10" offset-y="10">
           <v-avatar>
-            <img src="../assets/user.jpg" alt="John" />
+            <img src="../assets/user.jpg" alt="user-avatar" />
           </v-avatar>
         </v-badge>
       </a>
