@@ -9,6 +9,9 @@
         <form v-on:submit="getq">
           <input type="text" placeholder="Enter query" v-model="search" />
         </form>
+
+
+        {{name}}
       </v-col>
     </v-row>
   </v-container>
@@ -18,6 +21,7 @@
 export default {
   name: "HelloWorld",
 
+props:['name'] , 
   data() {
     return {
       search: ""
