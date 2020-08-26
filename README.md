@@ -1,4 +1,4 @@
-# unsplash-vue-gallery
+# chat-app-ui
 
 ## Project setup
 ```

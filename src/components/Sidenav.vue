@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <!-- <img src="../assets/logo.JPG"> -->
+    <!-- <img src="../assets/logox.svg"> -->
     <div class="sidenav">
 
       <div class="icon-pack">

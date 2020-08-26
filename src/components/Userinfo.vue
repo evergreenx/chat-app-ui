@@ -44,11 +44,16 @@
             <h5>Files(3)</h5>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
+         
+         <i class="fa fa-download"></i>
             <p>Landing_Page.pdf</p>
             <br />
 
+<i class="fa fa-download"></i>
             <p>Requirement.zip</p>
             <br />
+
+            <i class="fa fa-download"></i>
             <p>Uwagi.docx</p>
           </v-expansion-panel-content>
         </v-expansion-panel>

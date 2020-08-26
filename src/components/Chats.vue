@@ -24,7 +24,7 @@
 
 
     <div class="user" v-for="(currentchat , index) in currentchats" :key="index">
-        <v-avatar size="31px">    <img src="../assets/user.jpg" alt="user" /></v-avatar>
+        <v-avatar size="31px">    <img src="../assets/user.jpg"  /></v-avatar>
 
 <div class="userdata">
         <h5> 
