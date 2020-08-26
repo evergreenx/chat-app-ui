@@ -48,7 +48,7 @@
 
          <div class="filex">
          <i class="fa fa-download mx-4"></i>
-            <span class="mx-4 mb-4">Landing_Page.pdf</span>
+            <span class="mx-4">Landing_Page.pdf</span>
             <br />
          </div>
 
