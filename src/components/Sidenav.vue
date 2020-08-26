@@ -54,9 +54,9 @@ export default {};
   z-index: 1;
   top: 0;
   left: 0;
-  /* background-color: #111; */
+  background-color:#fff;
   overflow-x: hidden;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding:0;
   margin:0;
 }
@@ -76,5 +76,7 @@ img {
 
 .icon-pack{
   margin-top: 100px;
+} .nav{
+  background-color: khaki;
 }
 </style>

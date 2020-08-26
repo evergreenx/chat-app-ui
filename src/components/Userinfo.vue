@@ -44,17 +44,31 @@
             <h5>Files(3)</h5>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
-         
-         <i class="fa fa-download"></i>
-            <p>Landing_Page.pdf</p>
-            <br />
+       <div class="file">
 
-<i class="fa fa-download"></i>
-            <p>Requirement.zip</p>
+         <div class="filex">
+         <i class="fa fa-download mx-4"></i>
+            <span class="mx-4 mb-4">Landing_Page.pdf</span>
             <br />
+         </div>
 
-            <i class="fa fa-download"></i>
-            <p>Uwagi.docx</p>
+         <div class="filex">
+
+ <i class="fa fa-download mx-4"></i>
+            <span class="mx-4">Requirement.zip</span>
+         </div>
+        
+            
+
+         <div class="filex">
+
+ <i class="fa fa-download mx-4"></i>
+            <span class="mx-4">Uwagi.docx</span>
+
+         </div>
+          
+          
+       </div>
           </v-expansion-panel-content>
         </v-expansion-panel>
       </v-expansion-panels>
@@ -111,5 +125,7 @@ h5{
   font-size: 14px;
 }
 
+.filex{
+  margin-top:20px;}
 </style>
 

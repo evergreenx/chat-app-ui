@@ -12,15 +12,11 @@
       <i class="fas fa-ellipsis-h"></i>
     </div>
 
-    <div class="input">
-      <input type="search" class="form-control" placeholder="search here" />
-
-      <div class="form-group has-search">
-    <span class="fa fa-search form-control-feedback"></span>
-    <input type="text" class="form-control" placeholder="Search">
+     <div class="buttonInside">
+    <input placeholder="Type something" type="search" class="inputx">
+    <button id="showPassword"><i class="fa fa-search buttonx" aria-hidden="true"></i></button>
   </div>
-  
-    </div>
+    
 
 
     <div class="user" v-for="(currentchat , index) in currentchats" :key="index">
@@ -114,32 +110,44 @@ body{
   background-color:red;
 }
 .conversion {
-  background-color: #000;
+  background-color: #fff;
   display: flex;
   width: 100%;
-  color: red;
+  color: black;
   justify-content: space-around;
   padding: 10px;
   border-radius: 10px;
   margin: 2px 0px 20px 0px;
   outline: none;
 }
-
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 1.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-    /* float:left; */
+.fa-plus{
+  color:blue;
 }
 
-.has-search .form-control {
-    padding-left: 2.375rem;
+.buttonx{
+  position:absolute;
+  right: 12px;
+  top: 14px;
+  border:none;
+  height:20px;
+  width:20px;
+  border-radius:100%;
+  outline:none;
+  text-align:center;
+  font-weight:bold;
+  padding:2px;
+}
+.buttonInside{
+  position:relative;
+  margin-bottom:10px;
+}
+.inputx{
+  height:25px;
+  width:100%;
+  padding:23px;
+  border-radius: 4px;
+  border:none;outline:none;
+  background-color: rgb(180, 169, 169);
 }
 
 .user{

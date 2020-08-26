@@ -34,8 +34,10 @@ export default {
 
 @import './assets/b4/bootstrap.min.css';
 
-body{
-  background-color:grey;
+
+.theme--light.v-application{
+  background-color:rgba(211, 201, 201, 0.476);
+  margin-top:none;
 }
 
 
