@@ -39,24 +39,49 @@
     </div>
 
 
-<div>
-      <v-badge bordered color="green accent-4" dot bottom offset-x="10" offset-y="10">
 
-    <v-avatar size="31px" class="chat-img mx-2">
-        <img src="../assets/user.jpg" alt="user" />
-    </v-avatar>
-
-      </v-badge>
-
-</div>
     <div class="d-flex justify-space-around" v-for="chatx in replys " :key="chatx.id">
+
+      
+     
       <span class="chat-x">{{chatx.message}}
 
       <img :src="chatx.img" alt="image" class="img-res">
+
+
+<br>
+      <span class="chat-time">16 mins ago</span>
+        <span class="chat-timex">Seen 1:03pm</span>
       </span>
+
+      
 
       <i class="fas fa-ellipsis-h icon"></i>
     </div>
+
+   
+  <div class="input-group mt-5">
+  <div class="input-group-prepend">
+    <span class="input-group-text"><i class="fa fa-plus text-primary"></i></span>
+  </div>
+  <input type="text" class="form-control" placeholder="Type message here">
+  <div class="input-group-append">
+ <span class="input-group-text">
+
+
+   <i class="far fa-sad-cry"></i>
+ </span>
+
+    <span class="input-group-text">
+
+
+<i class="fa fa-paper-plane"></i>
+
+
+    </span>
+
+  </div>
+</div>
   </div>
 </template>
 
@@ -131,14 +156,20 @@ export default {
 
 .chat-time {
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.435);
+    color: rgb(190, 176, 176);
+
 }
 
 .chat-timex {
   margin-left: 80px;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.435);
+     color: rgb(190, 176, 176);
+
 }
+
+
+
+
 
 .img-res{
   width:80%;

@@ -30,7 +30,7 @@
 
       <a href="#">
         <v-badge bordered bottom color="green accent-4" dot offset-x="10" offset-y="10">
-          <v-avatar>
+          <v-avatar size="34">
             <img src="../assets/user.jpg" alt="user-avatar" />
           </v-avatar>
         </v-badge>
@@ -47,18 +47,17 @@ export default {};
 </script>
 
 <style scoped>
-.sidenav {
+nav {
   height: 100%;
   width: 60px;
-  position: absolute;
+  position: relative;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:#fff;
+  /* background-color:#fff; */
   overflow-x: hidden;
   /* padding-top: 20px; */
-  padding:0;
-  margin:0;
+  
 }
 
 .sidenav a {
@@ -69,14 +68,29 @@ export default {};
   display: block;
 }
 
-img {
-  width: 80%;
-  height: 100%;
-}
+
 
 .icon-pack{
-  margin-top: 100px;
+  margin-top: 150px;
 } .nav{
   background-color: khaki;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  nav a {float: left; margin-top:0;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .nav a {
+    text-align: center;
+    float: none;
+    margin-left: 0
+  }
 }
 </style>

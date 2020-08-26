@@ -36,7 +36,7 @@
 </div>
 
     </div>
-      <hr/>
+  
 
   </section>
 </template>
@@ -147,7 +147,7 @@ body{
   padding:23px;
   border-radius: 4px;
   border:none;outline:none;
-  background-color: rgb(180, 169, 169);
+  background-color: rgba(206, 202, 202, 0.591);
 }
 
 .user{

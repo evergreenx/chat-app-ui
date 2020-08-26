@@ -36,8 +36,8 @@ export default {
 
 
 .theme--light.v-application{
-  background-color:rgba(211, 201, 201, 0.476);
-  margin-top:none;
+  background-color:rgba(211, 201, 201, 0.108);
+  width:100%;
 }
 
 
