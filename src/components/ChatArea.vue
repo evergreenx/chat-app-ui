@@ -13,7 +13,7 @@
 
       <div class="rightx">
         <span>Members :</span>
-        <i class="fa fa-plus"></i>
+        <i class="fa fa-plus text-primary"></i>
 
         <v-avatar size="31px">
           <img src="../assets/user.jpg" alt="user" />
@@ -32,18 +32,23 @@
       </div>
 
 
-      <v-badge bordered color="green accent-4" dot bottom offset-x="10" offset-y="10" class="mx-2">
-        <v-avatar size="31px" class="chat-img">
-          <img src="../assets/user.jpg" alt="user" />
-        </v-avatar>
-      </v-badge>
+      
 
- 
+   <a href="#" class="mtx">
+        <v-badge bordered bottom color="green accent-4" dot offset-x="10" offset-y="10">
+          <v-avatar size="34">
+            <img src="../assets/user.jpg" alt="user-avatar" />
+          </v-avatar>
+        </v-badge>
+      </a>
 
     </div>
    
 
     <div class="d-flex justify-space-around" v-for="chatx in replys " :key="chatx.id">
+      
+
+      
       <span class="chat-x">
         {{chatx.message}}
         <img :src="chatx.img" alt="image" class="img-res" />
@@ -51,6 +56,8 @@
         <br />
         <span class="chat-time">16 mins ago</span>
         <span class="chat-timex">Seen 1:03pm</span>
+
+        
       </span>
 
       <i class="fas fa-ellipsis-h icon"></i>
@@ -159,5 +166,11 @@ export default {
 .img-res {
   width: 80%;
   /* height:40%; */
+}
+
+.mtx{
+  margin-top: 110px;
+  margin-left: 10px;
+
 }
 </style>

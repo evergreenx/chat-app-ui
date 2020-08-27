@@ -90,7 +90,7 @@ nav {
   .nav a {
     text-align: center;
     float: none;
-    margin-left: 0
+    margin-left: 0;
   }
 }
 </style>
