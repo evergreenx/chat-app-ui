@@ -153,13 +153,13 @@ export default {
 }
 
 .chat-time {
-  font-size: 12px;
+  font-size: 1.3vh;
   color: rgb(190, 176, 176);
 }
 
 .chat-timex {
-  margin-left: 80px;
-  font-size: 12px;
+  margin-left: 35px;
+  font-size: 1.3vh;
   color: rgb(190, 176, 176);
 }
 
@@ -169,7 +169,7 @@ export default {
 }
 
 .mtx{
-  margin-top: 110px;
+  margin-top: 93px;
   margin-left: 10px;
 
 }
